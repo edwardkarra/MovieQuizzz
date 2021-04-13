@@ -1,6 +1,6 @@
 <template>
     <div class="col-12">
-        <div class="col-8 offset-2">
+        <div class="col-10 offset-1">
             <b-card  :title="currentQuestion.question" header-tag="header" footer-tag="footer">
                 <template #header>
                         <p class="mb-0">Question Number : {{questIndex+1}}</p>
